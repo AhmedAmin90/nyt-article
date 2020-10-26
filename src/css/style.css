@@ -48,12 +48,59 @@ nav button {
 
 /*  Container section */
 .container {
-  width: 60%;
+  width: 80%;
   height: 100%;
-  margin: 5px auto;
+  margin: auto;
+  padding-top: 75px;
+}
+
+.feature-img-post {
+  margin-top: 10px;
 }
 
 .feature-img-post img{
-width: 800px;
-height: 600px;
+width: 100%;
 }
+
+.img-description{
+  margin-top: 5px;
+  width: 65%;
+  font-size: 14px;
+  color: #666666;
+}
+
+.img-description span{
+  font-size: 12px;
+  color: #888888;
+}
+
+.author-details {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+}
+
+.author-name{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 65px;
+  justify-content: space-between;
+}
+
+.author-details a{
+  text-decoration: none;
+  color: black;
+}
+
+.author-details h3{
+  font-size: 13.5px;
+  font-weight: bold;
+}
+.author-details h5{
+    font-size: 12px;
+    font-weight: 80;
+}
+
