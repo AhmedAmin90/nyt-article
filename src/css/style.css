@@ -3,30 +3,57 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.link-top{
+/* nav bar section */
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid #E2E2E2;
+  background-color: white;
+}
+
+nav i{
+  padding: 8px 9px 9px;
+  font-size: 15px;
+  color: #333333;
+}
+
+nav a{
   color:black;
   text-decoration: none;
   font-weight: 700;
   font-size: 14.25px;
+  margin-left: 10px;
 }
 
-.fas .fa-bars{
-  padding: 8px 9px 9px;
-}
-nav {
-  position: fixed;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.top-button {
+nav button {
   background-color: rgb(86, 123, 149);
   border: solid;
   border-color: rgb(50, 104, 145);
   border-width: 1px;
   color: white;
   font-size: 11px;
+  font-weight: 700;
   padding: 11px 12px 8px;
   border-radius: 5px;
+}
+
+.login-btn {
+  margin-right: 30px;
+}
+
+/*  Container section */
+.container {
+  width: 60%;
+  height: 100%;
+  margin: 5px auto;
+}
+
+.feature-img-post img{
+width: 800px;
+height: 600px;
 }
