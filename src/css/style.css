@@ -1,0 +1,32 @@
+* {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-top{
+  color:black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14.25px;
+}
+
+.fas .fa-bars{
+  padding: 8px 9px 9px;
+}
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.top-button {
+  background-color: rgb(86, 123, 149);
+  border: solid;
+  border-color: rgb(50, 104, 145);
+  border-width: 1px;
+  color: white;
+  font-size: 11px;
+  padding: 11px 12px 8px;
+  border-radius: 5px;
+}
