@@ -14,6 +14,7 @@ nav {
   padding: 5px 10px;
   border-bottom: 1px solid #E2E2E2;
   background-color: white;
+  z-index: 999;
 }
 
 nav i{
@@ -80,6 +81,7 @@ width: 100%;
   margin-right: auto;
   margin-top: 40px;
   display: flex;
+  justify-content: space-between;
 }
 
 .author-name{
@@ -104,3 +106,65 @@ width: 100%;
     font-weight: 80;
 }
 
+.share-icons{
+  display: flex;
+}
+
+.social-circles{
+  width: 30px;
+  height: 30px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+.author-social {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top: 14px;
+
+}
+
+.social-circles i {
+  margin: 7px 1px  0 8px;
+  font-size: 15px;
+ 
+}
+
+.social-circles .fa-facebook-f{
+  margin-left: 10.5px;
+}
+
+.comment-icons i {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.author-details i:hover{
+  cursor: pointer;
+}
+
+.social-circles:hover{
+  border: 2px #eeeeee solid;
+  background-color: white;
+}
+
+/* Paragraph part */
+.first-part-paragraph{
+  width: 60%;
+  margin: 20px auto 0 auto;
+}
+
+.first-part-paragraph p {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+}
+
+.first-part-paragraph  a {
+  color: #326891 ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
