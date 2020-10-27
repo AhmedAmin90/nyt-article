@@ -591,7 +591,7 @@ footer ul li {
   width: 95%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .first-footer-div p {
@@ -600,6 +600,10 @@ footer ul li {
   position: relative;
   bottom: 10px;
 }
+.footer-lists {
+  margin-right: 100px;
+}
+
 .first-footer-div p a {
   color: rgb(86, 123, 149);
 }
@@ -611,4 +615,55 @@ footer ul li {
 
 .footer-lists ul li a {
   color: black;
+}
+
+.third-footer-div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e2e2e2;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.third-footer-div p a{
+  color: #666;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.last-part {
+  border-left: 1px solid #e2e2e2;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.last-part a {
+  color: #333;
+}
+
+.last-part ul {
+  padding: 0;
+}
+
+.second-list {
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 10px;
+}
+
+.first-list {
+  margin-bottom: 20px;
+}
+
+.second-list a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.second-list ul {
+
+  margin-bottom: 10px;
+
 }
