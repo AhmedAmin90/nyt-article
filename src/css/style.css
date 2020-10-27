@@ -374,14 +374,17 @@ nav button {
 .social-circles-smaller .fa-facebook-f {
   margin-left: 4px;
 }
-
+/* 
 .related-articles {
   border: 1px solid red;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  width: 90%;
+  margin: 10px auto;
 }
 
-.bigger-related, .smaller-related {
+.bigger-related,
+.smaller-related {
   border: 1px solid orange;
 }
 
@@ -420,4 +423,56 @@ nav button {
 
 .editors-elements {
   border: 1px solid green;
+} */
+
+.related-articles {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.bigger-related {
+  width: 60%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 272.63px);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+}
+
+.editors-picks {
+  width: 60%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 272.63px);
+  grid-gap: 20px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+}
+.article-card small:first-of-type {
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+}
+
+.article-card a {
+  font-size: 18px;
+  color: #121212;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px auto;
+}
+
+.article-card small {
+  color: rgb(153, 153, 153);
+  font-size: 11px;
 }
