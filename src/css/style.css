@@ -374,3 +374,50 @@ nav button {
 .social-circles-smaller .fa-facebook-f {
   margin-left: 4px;
 }
+
+.related-articles {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.bigger-related, .smaller-related {
+  border: 1px solid orange;
+}
+
+.sugested {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 1rem;
+  width: 85%;
+  margin: auto;
+}
+
+.top-text-grid {
+  border: 1px solid lightblue;
+  display: grid;
+  grid-template-columns: repeat(3, 225px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 1rem;
+  width: 85%;
+  margin: auto;
+}
+
+.top-text-elements {
+  border: 1px solid lightblue;
+}
+
+.editors-grid {
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: repeat(3, 225px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 1rem;
+  width: 85%;
+  margin: auto;
+}
+
+.editors-elements {
+  border: 1px solid green;
+}
