@@ -1,5 +1,5 @@
 * {
-  margin:0;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,19 +12,19 @@ nav {
   width: 100%;
   justify-content: space-between;
   padding: 5px 10px;
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #e2e2e2;
   background-color: white;
   z-index: 999;
 }
 
-nav i{
+nav i {
   padding: 8px 9px 9px;
   font-size: 15px;
   color: #333333;
 }
 
-nav a{
-  color:black;
+nav a {
+  color: black;
   text-decoration: none;
   font-weight: 700;
   font-size: 14.25px;
@@ -59,18 +59,18 @@ nav button {
   margin-top: 10px;
 }
 
-.feature-img-post img{
-width: 100%;
+.feature-img-post img {
+  width: 100%;
 }
 
-.img-description{
+.img-description {
   margin-top: 5px;
   width: 65%;
   font-size: 14px;
   color: #666666;
 }
 
-.img-description span{
+.img-description span {
   font-size: 12px;
   color: #888888;
 }
@@ -84,7 +84,7 @@ width: 100%;
   justify-content: space-between;
 }
 
-.author-name{
+.author-name {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -92,48 +92,46 @@ width: 100%;
   justify-content: space-between;
 }
 
-.author-details a{
+.author-details a {
   text-decoration: none;
   color: black;
 }
 
-.author-details h3{
+.author-details h3 {
   font-size: 13.5px;
   font-weight: bold;
 }
-.author-details h5{
-    font-size: 12px;
-    font-weight: 80;
+.author-details h5 {
+  font-size: 12px;
+  font-weight: 80;
 }
 
-.share-icons{
+.share-icons {
   display: flex;
 }
 
-.social-circles{
+.social-circles {
   width: 30px;
   height: 30px;
   background-color: #eeeeee;
   border-radius: 50%;
   margin: 10px;
+  border: 2px solid transparent;
 }
-
 
 .author-social {
   display: flex;
   align-items: flex-end;
   position: relative;
   top: 14px;
-
 }
 
 .social-circles i {
-  margin: 7px 1px  0 8px;
+  margin: 7px 1px 0 8px;
   font-size: 15px;
- 
 }
 
-.social-circles .fa-facebook-f{
+.social-circles .fa-facebook-f {
   margin-left: 10.5px;
 }
 
@@ -142,30 +140,34 @@ width: 100%;
   margin: 10px;
 }
 
-.author-details i:hover{
+.author-details i:hover {
   cursor: pointer;
 }
 
-.social-circles:hover{
+.social-circles:hover {
   border: 2px #eeeeee solid;
   background-color: white;
+  /* transform: scale(2);
+  transition: 450ms; */
 }
 
 /* Paragraph part */
-.first-part-paragraph, .second-part-paragraph{
+.first-part-paragraph,
+.second-part-paragraph {
   width: 60%;
   margin: 20px auto 20px auto;
 }
 
-.first-part-paragraph p, .second-part-paragraph p {
+.first-part-paragraph p,
+.second-part-paragraph p {
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.6;
 }
 
-.first-part-paragraph  a {
-  color: #326891 ;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.first-part-paragraph a {
+  color: #326891;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
 }
 
@@ -191,4 +193,57 @@ width: 100%;
 .callout a {
   text-decoration: none;
   color: #326891;
+}
+
+/*  */
+
+.inflation-description {
+  width: 85%;
+  margin: auto;
+}
+.inflation-description h1 {
+  font-size: 20px;
+}
+
+.inflation-description p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.inflation-images {
+  display: grid;
+  grid-template-columns: repeat(4, 225px);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 1rem;
+  width: 85%;
+  margin: auto;
+}
+
+.inflation-images p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.inflation-images p strong {
+  margin-right: 5px;
+}
+
+/*  */
+
+.line-div-black {
+  width: 75px;
+  height: 0.1px;
+  background-color: #000;
+  margin: 30px 0 0 80px;
+}
+
+.inflaion-theory h5 {
+  font-size: 14px;
+  color: #333;
+  margin: 25px 0 0 80px;
 }
