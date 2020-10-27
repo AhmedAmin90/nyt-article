@@ -279,7 +279,7 @@ nav button {
 .video-part p {
   margin-top: 5px;
   color: #333;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, "times new roman", times, serif;
 }
 
 .third-part {
@@ -304,5 +304,73 @@ nav button {
 .second-image p {
   margin-top: 5px;
   color: #333;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+/* last-part-of-paragraph */
+
+.last-part-of-paragraph {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.last-part-of-paragraph p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4;
+}
+
+.last-part-of-paragraph small {
+  font-size: 11px;
+  color: #666666;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.comment-btn-social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.comment-scoial-icons {
+  display: flex;
+}
+
+.comment-btn {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.comment-btn button {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.social-circles-smaller {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid transparent;
+}
+
+.social-circles-smaller i {
+  margin: 2px 1px 0 2px;
+  font-size: 15px;
+}
+
+.social-circles-smaller .fa-facebook-f {
+  margin-left: 4px;
 }
