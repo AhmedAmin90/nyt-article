@@ -433,10 +433,25 @@ nav button {
 }
 
 .bigger-related {
-  width: 60%;
+  width: 83.5%;
   margin-left: 10px;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid black;
+}
+
+.bigger-related a {
+  font-size: 16px;
+  color: #121212;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bigger-related a:hover {
+  text-decoration: underline;
 }
 
 .more-articles {
@@ -447,7 +462,7 @@ nav button {
 }
 
 .editors-picks {
-  width: 60%;
+  width: 83.5%;
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 272.63px);
@@ -475,4 +490,65 @@ nav button {
 .article-card small {
   color: rgb(153, 153, 153);
   font-size: 11px;
+}
+
+.smaller-related {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+}
+
+.smaller-related a {
+  font-size: 18px;
+  color: #121212;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px auto;
+  padding-top: 15px;
+  border-top: 1px solid rgb(153, 153, 153);
+}
+
+.smaller-related p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #121212;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+.editors-link {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.aside-content {
+  display: grid;
+  width: 245px;
+  grid-template-columns: 75px 150px;
+  grid-template-rows: 75px 75px 75px;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  grid-gap: 10px;
+}
+
+.editors-text{
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  margin: 5.1px 0 5.1px 10px;
+}
+
+.editors-text a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.aside {
+  position: absolute;
+  left: 1200px;
+}
+
+.aside h5{
+  margin-bottom: 10px;
 }
