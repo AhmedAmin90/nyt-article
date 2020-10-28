@@ -3,6 +3,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* nav bar section */
 
 nav {
@@ -61,6 +69,19 @@ nav button {
 
 .feature-img-post img {
   width: 100%;
+}
+
+.feature-img-post h1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  font-family: georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin-bottom: 10px;
 }
 
 .img-description {
@@ -303,7 +324,7 @@ nav button {
 
 .second-image p {
   margin-top: 5px;
-  color: #333;
+  color: #666;
   font-family: georgia, "times new roman", times, serif;
 }
 
@@ -323,6 +344,12 @@ nav button {
 }
 
 .last-part-of-paragraph small {
+  font-size: 11px;
+  color: #666666;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.last-part-of-paragraph a {
   font-size: 11px;
   color: #666666;
   font-family: helvetica, arial, sans-serif;
@@ -357,6 +384,11 @@ nav button {
   font-size: 13px;
 }
 
+.comment-btn button:hover {
+  cursor: pointer;
+  background-color: rgb(50, 104, 145);
+}
+
 .social-circles-smaller {
   width: 20px;
   height: 20px;
@@ -364,6 +396,12 @@ nav button {
   border-radius: 50%;
   margin: 10px;
   border: 2px solid transparent;
+}
+
+.social-circles-smaller:hover {
+  background-color: white;
+  border: 2px solid #eee;
+  cursor: pointer;
 }
 
 .social-circles-smaller i {
@@ -591,6 +629,7 @@ footer ul li {
   width: 95%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 15px;
   /*justify-content: space-between;*/
 }
 
@@ -641,10 +680,15 @@ footer ul li {
 
 .last-part a {
   color: #333;
+  font-size: 16px;
 }
 
 .last-part ul {
   padding: 0;
+}
+
+.last-part ul {
+  margin: 2px;
 }
 
 .second-list {
@@ -656,6 +700,19 @@ footer ul li {
   margin-bottom: 20px;
 }
 
+.first-list i {
+  font-size: 16px;
+}
+
+.first-list ul {
+  margin: 0;
+}
+
+.first-list ul li {
+  margin: 8px;
+  font-weight: bold;
+}
+
 .second-list a {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -663,7 +720,13 @@ footer ul li {
 }
 
 .second-list ul {
-
   margin-bottom: 10px;
+}
 
+.first-footer-div {
+  margin-top: 20px;
+}
+
+.third-list a{
+  font-size: 11px;
 }
