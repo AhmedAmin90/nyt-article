@@ -3,6 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*  General styling */
 a {
   text-decoration: none;
 }
@@ -55,6 +56,7 @@ nav button {
   margin-right: 30px;
 }
 
+/* End of nav bar */
 /*  Container section */
 .container {
   width: 80%;
@@ -63,6 +65,7 @@ nav button {
   padding-top: 75px;
 }
 
+/* Feature image of the article */
 .feature-img-post {
   margin-top: 10px;
 }
@@ -76,7 +79,7 @@ nav button {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, "times new roman", times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 2.2rem;
@@ -168,9 +171,9 @@ nav button {
 .social-circles:hover {
   border: 2px #eee solid;
   background-color: white;
-  /* transform: scale(2);
-  transition: 450ms; */
 }
+
+/* End of Featured image */
 
 /* Paragraph part */
 .first-part-paragraph,
@@ -216,7 +219,40 @@ nav button {
   color: #326891;
 }
 
-/*  */
+/* Aside content */
+.aside-content {
+  display: grid;
+  width: 245px;
+  grid-template-columns: 75px 150px;
+  grid-template-rows: 75px 75px 75px;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  grid-gap: 10px;
+}
+
+.editors-text {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  margin: 5.1px 0 5.1px 10px;
+}
+
+.editors-text a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.aside {
+  position: absolute;
+  left: 1200px;
+}
+
+.aside h5 {
+  margin-bottom: 10px;
+}
+
+/* Start on inflation grid */
 
 .inflation-description {
   width: 85%;
@@ -254,8 +290,6 @@ nav button {
   margin-right: 5px;
 }
 
-/*  */
-
 .line-div-black {
   width: 75px;
   height: 0.1px;
@@ -268,6 +302,8 @@ nav button {
   color: #333;
   margin: 25px 0 0 80px;
 }
+
+/*  Start on second part of the paragraph */
 
 .second-part {
   width: 50%;
@@ -291,6 +327,7 @@ nav button {
   text-decoration: none;
 }
 
+/* start on Video part */
 .video-part {
   margin-left: auto;
   margin-right: auto;
@@ -303,6 +340,7 @@ nav button {
   font-family: georgia, "times new roman", times, serif;
 }
 
+/*  Start on 3rd part of paragraph */
 .third-part {
   width: 50%;
   margin-left: auto;
@@ -315,6 +353,8 @@ nav button {
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.4;
 }
+
+/* second img of paragraph */
 
 .second-image {
   margin-left: auto;
@@ -355,6 +395,7 @@ nav button {
   font-family: helvetica, arial, sans-serif;
 }
 
+/* Comment btn area */
 .comment-btn-social-icons {
   display: flex;
   justify-content: space-between;
@@ -412,57 +453,8 @@ nav button {
 .social-circles-smaller .fa-facebook-f {
   margin-left: 4px;
 }
-/* 
-.related-articles {
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  width: 90%;
-  margin: 10px auto;
-}
 
-.bigger-related,
-.smaller-related {
-  border: 1px solid orange;
-}
-
-.sugested {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 2fr 1fr;
-  grid-gap: 1rem;
-  width: 85%;
-  margin: auto;
-}
-
-.top-text-grid {
-  border: 1px solid lightblue;
-  display: grid;
-  grid-template-columns: repeat(3, 225px);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 1rem;
-  width: 85%;
-  margin: auto;
-}
-
-.top-text-elements {
-  border: 1px solid lightblue;
-}
-
-.editors-grid {
-  border: 1px solid green;
-  display: grid;
-  grid-template-columns: repeat(3, 225px);
-  grid-template-rows: repeat(2, 300px);
-  grid-gap: 1rem;
-  width: 85%;
-  margin: auto;
-}
-
-.editors-elements {
-  border: 1px solid green;
-} */
-
+/* Start on realted footer articles */
 .related-articles {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -559,38 +551,6 @@ nav button {
   padding-top: 10px;
 }
 
-.aside-content {
-  display: grid;
-  width: 245px;
-  grid-template-columns: 75px 150px;
-  grid-template-rows: 75px 75px 75px;
-  border-top: 1px solid gray;
-  padding-top: 10px;
-  grid-gap: 10px;
-}
-
-.editors-text {
-  font-size: 12px;
-  color: #000;
-  text-decoration: none;
-  margin: 5.1px 0 5.1px 10px;
-}
-
-.editors-text a {
-  font-size: 14px;
-  color: #000;
-  text-decoration: none;
-}
-
-.aside {
-  position: absolute;
-  left: 1200px;
-}
-
-.aside h5 {
-  margin-bottom: 10px;
-}
-
 /* Footer part */
 
 footer {
@@ -630,7 +590,6 @@ footer ul li {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
-  /*justify-content: space-between;*/
 }
 
 .first-footer-div p {
@@ -640,7 +599,7 @@ footer ul li {
   bottom: 10px;
 }
 .footer-lists {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .first-footer-div p a {
@@ -661,13 +620,12 @@ footer ul li {
   justify-content: space-between;
   border-top: 1px solid #e2e2e2;
   width: 90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 30px;
 }
 
-.third-footer-div p a{
+.third-footer-div p a {
   color: #666;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -727,6 +685,6 @@ footer ul li {
   margin-top: 20px;
 }
 
-.third-list a{
+.third-list a {
   font-size: 11px;
 }
