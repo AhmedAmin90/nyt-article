@@ -391,10 +391,6 @@ nav button {
   margin-top: 10px;
 }
 
-.bigger-related a:hover {
-  text-decoration: underline;
-}
-
 .first-footer-div p a {
   color: rgb(86, 123, 149);
 }
@@ -408,6 +404,10 @@ nav button {
 
 .footer-lists ul li a {
   color: black;
+}
+
+.bigger-related a:hover {
+  text-decoration: underline;
 }
 
 .second-part a:hover {
