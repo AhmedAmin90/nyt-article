@@ -8,7 +8,7 @@ Third Microverse Project
 
 > Cloning New York Times page .
 
-![screenshot](.src\images\app_screenshot.png)
+![screenshot](./src/images/app_screenshot.png)
 
 We cloned this page and made the main sections inside the page like:
 
