@@ -22,7 +22,7 @@ We cloned this page and made the main sections inside the page like:
 
 - HTML
 - CSS
-- FONTAWOESOME
+- FONTAWESOME
 
 ## Live Demo
 

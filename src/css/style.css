@@ -263,7 +263,8 @@ nav button {
 
 .aside {
   position: absolute;
-  left: 1200px;
+  right: 50px;
+  float: right;
 }
 
 .aside h5 {
