@@ -372,8 +372,24 @@ nav button {
   font-size: 10px;
 }
 
-.footer-lists ul li a {
-  color: black;
+.third-list a {
+  font-size: 11px;
+}
+
+.last-part a {
+  color: #333;
+  font-size: 16px;
+}
+
+.first-footer-div p a {
+  color: rgb(86, 123, 149);
+}
+
+.third-footer-div p a {
+  color: #666;
+  font-size: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .bigger-related a {
@@ -390,17 +406,8 @@ nav button {
   text-decoration: underline;
 }
 
-.third-list a {
-  font-size: 11px;
-}
-
-.last-part a {
-  color: #333;
-  font-size: 16px;
-}
-
-.first-footer-div p a {
-  color: rgb(86, 123, 149);
+.footer-lists ul li a {
+  color: black;
 }
 
 .second-part a:hover {
@@ -653,13 +660,6 @@ footer ul li {
   padding: 10px 30px;
 }
 
-.third-footer-div p a {
-  color: #666;
-  font-size: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
 .last-part {
   border-left: 1px solid #e2e2e2;
   padding: 15px;
@@ -668,9 +668,6 @@ footer ul li {
 
 .last-part ul {
   padding: 0;
-}
-
-.last-part ul {
   margin: 2px;
 }
 
