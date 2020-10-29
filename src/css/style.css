@@ -56,10 +56,6 @@ nav button {
   border-radius: 5px;
 }
 
-.nav-btns button:hover {
-  cursor: pointer;
-}
-
 .login-btn {
   margin-right: 30px;
 }
