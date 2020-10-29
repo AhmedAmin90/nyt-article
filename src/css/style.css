@@ -56,7 +56,7 @@ nav button {
   border-radius: 5px;
 }
 
-nav button:hover {
+.nav-btns button:hover {
   cursor: pointer;
 }
 
